@@ -7,17 +7,9 @@ namespace Task2_4_Phone
     {
         public static void Main()
         {
-            string[] phoneNumbers = Console.ReadLine()
-                .Split(' ')
-                .ToArray();
-
-            string[] names = Console.ReadLine()
-                .Split(' ')
-                .ToArray();
-
-            string[] command = Console.ReadLine()
-                .Split(' ')
-                .ToArray();
+            string[] phoneNumbers = Console.ReadLine().Split(' ');
+            string[] names = Console.ReadLine().Split(' ');
+            string[] command = Console.ReadLine().Split(' ');
 
             string action = string.Empty;
 
@@ -37,9 +29,7 @@ namespace Task2_4_Phone
                         break;
                 }
 
-                command = Console.ReadLine()
-                .Split(' ')
-                .ToArray();
+                command = Console.ReadLine().Split(' ');
             }
         }
 
